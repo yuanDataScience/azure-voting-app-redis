@@ -17,10 +17,6 @@ pipeline {
                 echo 'Goodbye World'
             }
         }
-        stage('pwsh Hello') {
-            steps {
-                powershell label: '', script: 'Write-Output "Hello World"'
-            }
-        }
+
     }
 }
